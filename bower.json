@@ -1,6 +1,6 @@
 {
   "name": "cirrus-tlArray",
-  "version": "0.0.3",
+  "version": "0.0.5",
   "authors": [
     "Marco Bachmann <mb@triarc-labs.com>"
   ],
@@ -19,6 +19,6 @@
   "endpoint": "https://github.com/triarc/cirrus-tlArray.git",
   "dependencies": {
     "linqjs": "~3.0.4-beta",
-    "cirrus-utils": "~0.0.3"
+    "cirrus-utils": "~0.0.5"
   }
 }
