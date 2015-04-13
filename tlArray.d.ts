@@ -1,3 +1,4 @@
+/// <reference path="linq.d.ts" />
 interface Array<T> {
     any(): boolean;
     get(index: number): T;
