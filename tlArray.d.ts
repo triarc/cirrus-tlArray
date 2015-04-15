@@ -23,5 +23,5 @@ interface Array<T> {
     toEnumerable(): linqjs.IEnumerable<T>;
 }
 interface Map<K, V> {
-    values(): V[];
+    getValues(): V[];
 }

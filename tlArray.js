@@ -179,10 +179,10 @@ Array.prototype.replaceWhere = function (compareFn, object) {
 Array.prototype.toEnumerable = function () {
     return Enumerable.from(this);
 };
-Map.prototype.values = function () {
+Map.prototype.getValues = function () {
     var values = [];
-    this.forEach(function (v) {
-        values.push(v);
+    this.forEach(function (val) {
+        values.push(val);
     });
     return values;
 };
